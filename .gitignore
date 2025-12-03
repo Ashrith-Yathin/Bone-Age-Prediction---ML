@@ -9,7 +9,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Generated Results (Plots/Heatmaps)
-results/
+# results/
 
 # Virtual Environment
 bone_env/
