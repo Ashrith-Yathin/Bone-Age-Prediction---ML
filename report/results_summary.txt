@@ -1,0 +1,28 @@
+
+BONE AGE PREDICTION - RESULTS SUMMARY
+
+Dataset:
+- Training samples: 9111
+- Validation samples: 1608
+- Test samples: 1892
+
+Regression Performance:
+Classical ML (Random Forest):
+  MAE: 2.314 years
+  RMSE: 2.899 years
+  R2: 0.273
+
+Deep Learning (CNN ResNet50):
+  MAE: 2.627 years
+  RMSE: 3.306 years
+  R2: 0.055
+
+Classification Performance (Random Forest):
+  Accuracy: 0.662
+  F1-Score: 0.645
+  Quadratic Weighted Kappa: 0.289
+
+Gender Bias Analysis:
+  Male MAE: 2.715 years
+  Female MAE: 2.523 years
+  Difference: 0.192 years

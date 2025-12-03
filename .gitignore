@@ -1,0 +1,26 @@
+# Dataset (Too large for GitHub)
+dataset/
+
+# Generated Models and Cache
+models/
+cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated Results (Plots/Heatmaps)
+results/
+
+# Virtual Environment
+bone_env/
+venv/
+env/
+.env
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/
